@@ -1,3 +1,7 @@
+//Change line 56 to change user choice
+//Change line 56 to change user choice
+//Change line 56 to change user choice
+//Change line 56 to change user choice
 const getUserChoice = userInput => {
   userInput = userInput.toLowerCase()
   if (userInput === 'rock' || userInput ===  'paper' || userInput === 'scissors'|| userInput === 'bomb'){
@@ -52,6 +56,7 @@ if(userChoice === 'rock') {
 }
 }
 function playGame(){ 
+
   const userChoice = getUserChoice('rock');
   const computerChoice = getComputerChoice();
   console.log('you threw ' + userChoice);
